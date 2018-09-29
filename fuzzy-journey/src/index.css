@@ -1,5 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #0cebeb;
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.material-icons {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    line-height: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.column: {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    /* height: 100%; */
+    width: 100vw;
+}
+
+.inner-container {
+    width: 60%;
+    max-width: 960px;
+    /* height: 100vh; */
+    flex-direction: column;
+}
+
+.card {
+    min-width: 350px;
+    align-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 0.5rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    /* max-width: 600px; */
+}
+
+.inner-bounds {
+    width: 80%;
+}
+
+.card-head {
+    width: 100%;
+    padding: 0.5rem 0;
+    justify-content: center;
+    background-color: #ee24b8;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px 4px 0 0;
+}
+
+.card-head p {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.data-group {
+    width: 100%;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #777777;
+    margin-right: 0.25rem;
+    font-size: 0.8rem;
+    margin-bottom: 0px;
+}
+
+.data {
+    font-weight: bold;
+    color: #262626;
+    margin-top: 0.25rem;
+}
+
+.hash {
+    font-size: 0.8rem;
 }
