@@ -5,7 +5,11 @@ Grab the article at [https://medium.com/coinmonks/understanding-and-building-you
 
 ## Tips
 
+* Run "npm start";
+
 ## What's it all about?
+
+* sha256 Hashing;
 
 ## Thanks
 
